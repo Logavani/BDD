@@ -1,0 +1,17 @@
+Testing is not finding compilation errors nor exceptions.
+Testing is for evaluating logic in code!
+
+JUnit : Unit Testing framework for Java Appli
+      Test Runner: Execute test cases, collect nd print result
+      Test Cases: Individual "test" method
+      Assert methods: Methods to evaluate logic (or assumptions)
+                       Basic Syntax:
+                         <METHOD>(<ACTUAL>,<EXPECTED>)
+      Test Suite: Collection of Test cases bundled together.
+
+
+JUnit 4 Annotations:
+      @RunWith                Specify the Test Runner
+      @Test                   Designate the PUBLIC VOID method as Test case
+      @Suite                  Desfine Collection of Test classes as Suite
+      @Setup                  Method to be executed before each test cases
